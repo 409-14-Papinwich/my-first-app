@@ -61,7 +61,7 @@ if current_step >= total_questions:
     st.write(f"คิดเป็น: **{percentage:.1f}%**")
     
     if percentage == 100:
-        st.success("🥇 สุดยอดมาก! คุณได้คะแนนเต็ม พร้อมสอบ สอวน. แล้ว")
+        st.success("🥇 สุดยอดมาก! คุณได้คะแนนเต็ม ว้าว ว้าว ")
     elif percentage >= 60:
         st.info("🥈 ทำได้ดีมาก! ลองทบทวนจุดที่ผิดอีกนิดรับรองเป๊ะขึ้นแน่นอน")
     else:
